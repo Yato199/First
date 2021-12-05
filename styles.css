@@ -1,0 +1,53 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+/* HTML Tags */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Classes */
+
+/* Navigation */
+
+.nav-ele, .brand {
+  display: inline-block;
+}
+
+.navigation .flex {
+  justify-content: space-between;
+}
+
+.navigation .flex-ele {
+  flex-direction: row;
+}
+
+.nav-ele {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation ul a {
+  margin: 0 2rem;
+}
+
+
+/* Navigation End */
+
+
+
+/* IDs */
+
+
+#navigation {
+  background-color: #94B3FD;
+}

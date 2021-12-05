@@ -1,0 +1,12 @@
+
+/* Container Classes */
+
+.container {
+  max-width: 70%;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
