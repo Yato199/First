@@ -1,37 +1,193 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
-    <!-- Local CSS -->
-    <link rel="stylesheet" href="utilities.css">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
 
-      <section id="navigation" class="navigation">
+<head>
+  <meta charset="utf-8">
+  <title>Loruki</title>
+  <link rel="icon" href="images/favicon.png">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="utilities.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-        <div class="container flex">
-          <h1 class="brand">Loruki</h1>
-          <ul class = "nav-ele">
-            <a href=""><li>Home</li></a>
-            <a href=""><li>Feature</li></a>
-            <a href=""><li>Docs</li></a>
-          </ul>
+<body>
+
+  <section id="navigation" class="navigation">
+
+    <div class="container flex">
+      <h1 class="brand">Loruki</h1>
+      <ul class="nav-ele">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="features.html">
+          <li>Features</li>
+        </a>
+      </ul>
+    </div>
+
+  </section>
+
+  <section id="intro" class="intro">
+
+    <div class="container grid">
+      <div class="">
+        <h1 class="header">Easier Deployment</h1>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente totam accusamus illum ut dolore animi omnis molestias, impedit eveniet in.</p>
+        <button class="btn btn-outline-dark c_btn" type="button" name="button">Portfolio</button>
+      </div>
+      <div class="form">
+        <h2>Request a Demo</h2>
+        <input type="text" name="" value="" placeholder="Name">
+        <input type="text" name="" value="" placeholder="Company">
+        <input type="text" name="" value="" placeholder="Email">
+        <button class="btn btn-outline-dark" type="button" name="button">Submit</button>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="intro2" id="intro2">
+    <div class="container grid">
+      <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id repellendus necessitatibus ullam aliquam consequuntur assumenda et laborum delectus. Hic, deleniti?</p>
+      <div class="grid grid2">
+        <div class="">
+          <i class="fas fa-server fa-4x"></i>
+          <p><b>1,09,498</b></p>
+          <p><b>Deployment</b></p>
+        </div>
+        <div class="">
+          <i class="fas fa-upload fa-4x"></i>
+          <p><b>200TB</b></p>
+          <p><b>Published</b></p>
+        </div>
+        <div class="">
+          <i class="fas fa-project-diagram fa-4x"></i>
+          <p><b>1,35,325</b></p>
+          <p><b>Project</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cli" id="cli">
+    <div class="container grid">
+      <img class="img-fluid" src="images\cli.png" alt="cli">
+
+      <div class="flex">
+        <div class="c_card">
+          <p class="para">Easy to use, cross platform CLI</p>
         </div>
 
-      </section>
+        <div class="c_card">
+          <p class="para">Deploy in seconds</p>
+        </div>
+      </div>
 
-      <!-- <button type="button" name="button" class="btn btn-dark"> Enter</button> -->
+    </div>
+  </section>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-  </body>
+  <section class="middle" id="mid">
+    <div class="container grid">
+      <div class="text">
+        <h1 class="header">Extreme Cloud Hosting</h1>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi voluptas saepe quam dicta odio, dolor vel incidunt distinctio hic perferendis. </p>
+
+        <button class="btn btn-outline-dark c_btn" type="button" name="button">Read More</button>
+
+      </div>
+      <img class="img-fluid" src="images\cloud.png" alt="cloud">
+    </div>
+  </section>
+
+  <section class="icons" id="ic">
+    <div class="container flex">
+      <div class="c_card">
+        <p class="para">Clojure</p>
+        <img src="images\clojure.png" alt="clojure">
+      </div>
+
+      <div class="c_card">
+        <p class="para">CSharp</p>
+        <img src="images\csharp.png" alt="csharp">
+      </div>
+
+      <div class="c_card">
+        <p class="para">Go</p>
+        <img src="images\go.png" alt="go">
+      </div>
+
+      <div class="c_card">
+        <p class="para">Node</p>
+        <img src="images\node.png" alt="node">
+      </div>
+
+      <div class="c_card">
+        <p class="para">Php</p>
+        <img src="images\php.png" alt="php">
+      </div>
+
+      <div class="c_card">
+        <p class="para">Python</p>
+        <img src="images\python.png" alt="python">
+      </div>
+
+      <div class="c_card">
+        <p class="para">Ruby</p>
+        <img src="images\ruby.png" alt="ruby">
+      </div>
+
+      <div class="c_card">
+        <p class="para">Scala</p>
+        <img src="images\scala.png" alt="scala">
+      </div>
+    </div>
+  </section>
+
+  <section class="footer" id="footer">
+    <div class="container flex">
+      <div class="text">
+        <h1>Loruki</h1>
+        <p class="para">Copyright &copy; 2021</p>
+      </div>
+
+      <div class="nav_links">
+        <ul class="flex">
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="features.html">
+            <li>Features</li>
+          </a>
+          <a href="docs.html">
+            <li>Docs</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="social flex">
+        <a href="index.html"><i class="fab fa-github fa-2x"></i></a>
+        <a href="index.html"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="index.html"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="index.html"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- <button type="button" name="button" class="btn btn-dark"> Enter</button> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+
 </html>
