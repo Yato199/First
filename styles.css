@@ -116,6 +116,7 @@ section {
 }
 
 .intro .form input[type=text] {
+  outline: none;
   border: none;
   border-bottom: 1px solid;
   margin: 5% auto;
