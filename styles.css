@@ -116,7 +116,6 @@ section {
 }
 
 .intro .form input[type=text] {
-  outline: none;
   border: none;
   border-bottom: 1px solid;
   margin: 5% auto;
@@ -155,7 +154,6 @@ section {
 }
 
 .c_card {
-  outline: none;
   border-radius: 15px;
   box-shadow: 0 0px 5px;
   padding: 15px 15px 0;
