@@ -119,6 +119,7 @@ section {
   border: none;
   border-bottom: 1px solid;
   margin: 5% auto;
+  outline: none;
   width: 90%;
 }
 
